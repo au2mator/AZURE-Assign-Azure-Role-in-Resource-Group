@@ -6,7 +6,7 @@ $jsondata | Out-File -FilePath "C:\_SCOworkingDir\TFS\PS-Services\AZURE - Assign
 $c_Subscription=$jsondata.c_Subscription
 
 #Environment
-[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://au2mator.com/documentation/powershell-credentials/?utm_source=github&utm_medium=social&utm_campaign=PS_Template&utm_content=PS1
+[string]$CredentialStorePath = "C:\_SCOworkingDir\TFS\PS-Services\CredentialStore" #see for details: https://click.au2mator.com/PSCreds/?utm_source=github&utm_medium=social&utm_campaign=PS_Template&utm_content=PS1
 [string]$LogPath = "C:\_SCOworkingDir\TFS\PS-Services\AZURE - Assign Role to Azure Resource Group"
 [string]$LogfileName = "Question-GetSubscriptions"
 
